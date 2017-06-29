@@ -1,0 +1,21 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Nightmare": {
+      "url": "http://localhost:8080/",
+      "show": true
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "customerPage": "./pages/customer.js",
+    "insurancePage": "./pages/insurance.js"
+  },
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./test/*_test.js",
+  "timeout": 10000,
+  "name": "codeceptNightmare"
+}

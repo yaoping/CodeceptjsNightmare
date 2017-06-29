@@ -1,0 +1,17 @@
+{
+  "name": "codeceptjs2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "scripts": {
+    "test": "codeceptjs run  --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^0.6.3",
+    "mochawesome": "^2.2.1",
+    "nightmare": "^2.10.0",
+    "nightmare-upload": "^0.1.1"
+  }
+}
